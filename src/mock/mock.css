@@ -1,0 +1,79 @@
+@import "destyle.css";
+
+body {
+    font-family: sans-serif;
+    background-color: #b7b7b7;
+    padding: 20px;
+}
+
+table, th, td {
+    border-collapse: separate;
+    border: 1px solid #282c34;
+}
+
+th, td {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+td {
+    position: relative;
+}
+
+.sun {
+    color: #ff1941;
+}
+
+.sat {
+    color: #1332ff;
+}
+
+table.calendar tr td.today {
+    color: #639aff;
+    border: 3px solid #639aff;
+}
+
+.pre-date, .next-date {
+    color: #9d9d9d;
+}
+
+.year-month-txt {
+    font-size: 20px;
+    font-weight: bold;
+    color: #646464;
+}
+
+.tran-month-btn-wrapper {
+    margin: 10px auto;
+}
+
+.tran-month-btn {
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #639aff;
+    border: none;
+}
+
+td img {
+    width: 23px;
+    height: auto;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.select-lang, .select-location {
+    background-color: #ffffff;
+    width: 130px;
+    height: 40px;
+    padding: 10px 30px 10px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    appearance: textfield;
+}

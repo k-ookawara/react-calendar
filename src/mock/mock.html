@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="./mock.css">
+</head>
+<body>
+    <div>
+        <p class="year-month-txt">2023年9月</p>
+    </div>
+    <div class="tran-month-btn-wrapper">
+        <button class="tran-month-btn">先月</button>
+        <button class="tran-month-btn">翌月</button>
+        <select class="select-lang">
+            <option>日本語</option>
+            <option>English</option>
+        </select>
+        <select class="select-location">
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="America/New_York">NewYork</option>
+        </select>
+    </div>
+    <div>
+        <table class="calendar">
+            <tr>
+                <th class="sun">日</th>
+                <th>月</th>
+                <th>火</th>
+                <th>水</th>
+                <th>木</th>
+                <th>金</th>
+                <th class="sat">土</th>
+            </tr>
+            <tr>
+                <td class="pre-date sun">8/27</td>
+                <td class="pre-date">28</td>
+                <td class="pre-date">29</td>
+                <td class="pre-date">30</td>
+                <td class="pre-date">31</td>
+                <td class="date">9/1</td>
+                <td class="date sat">2</td>
+            </tr>
+            <tr>
+                <td class="date sun">3</td>
+                <td class="date today">
+                    4
+                    <img src="./images/ClearSky.png">
+                </td>
+                <td class="date">
+                    5
+                    <img src="./images/Drizzle.png">
+                </td>
+                <td class="date">
+                    6
+                    <img src="./images/Fog.png">
+                </td>
+                <td class="date">
+                    7
+                    <img src="./images/MainlyClear.png">
+                </td>
+                <td class="date">
+                    8
+                </td>
+                <td class="date sat">
+                    9
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
